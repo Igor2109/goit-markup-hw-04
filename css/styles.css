@@ -488,6 +488,47 @@ background-size: cover;
   color: var(--navy-blue-clr);
   margin-bottom: 72px;
 }
+/**
+  |============================
+  | Customers
+  |============================
+*/
+.section {
+}
+.title {
+}
+.clients-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.list {
+}
+.clients-item {
+}
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--light-slate-clr);
+  border-radius: 4px;
+  
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color:  var(--ocean-clr);
+ color: var(--ocean-clr);
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  
+}
 
 /**
   |============================
